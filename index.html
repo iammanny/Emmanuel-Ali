@@ -16,18 +16,32 @@
       
       
       <div>
-        <label for="name">Name</label><br>
-      <input type="text" id="name" name="name"  required>
+        <label for="name" id="label-name">Name</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name"  required>
     </div>
     <div>
-      <label for="email">Email </label><br>
+      <label for="email" id="label-email">Email </label><br>
       
-      <input type="email" id="email" name="email">
+      <input type="email" id="email" name="email" placeholder="Enter your name">
     </div>
     <div>
-      <label for="number">Number</label><br>
+      <label for="number" id="label-number">Number</label><br>
       
-      <input type="number" name="" id="number" name="number" min="10" max="20">
+      <input type="number" name="" id="number" name="number" placeholder="Enter your number" min="10" max="20">
+    </div>
+    <div>
+      <select name="dropdown" id="dropdown">
+        <option value="first">First</option>
+        <option value="second">Second</option>
+        <option value="third">Third</option>
+        <option value="Fourth">Fourth</option>
+
+      </select>
+    </div>
+    <div>
+      <fieldset>
+        <input type="radio"/>
+      </fieldset>
     </div>
       
     </form>
