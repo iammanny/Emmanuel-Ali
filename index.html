@@ -16,20 +16,21 @@
       
       
       <div>
-        <label for="name" id="label-name">Name</label><br>
+        <label for="name" id="label-name">Name</label>
       <input type="text" id="name" name="name" placeholder="Enter your name"  required>
     </div>
     <div>
-      <label for="email" id="label-email">Email </label><br>
+      <label for="email" id="label-email">Email </label>
       
       <input type="email" id="email" name="email" placeholder="Enter your name">
     </div>
     <div>
-      <label for="number" id="label-number">Number</label><br>
+      <label for="number" id="label-number">Number</label>
       
       <input type="number" name="" id="number" name="number" placeholder="Enter your number" min="10" max="20">
     </div>
     <div>
+      <label for="dropdown">Select</label>
       <select name="dropdown" id="dropdown">
         <option value="first">First</option>
         <option value="second">Second</option>
@@ -38,12 +39,28 @@
 
       </select>
     </div>
-    <div>
-      <fieldset>
-        <input type="radio"/>
-      </fieldset>
-    </div>
-      
+
+    
+    <fieldset id="group1" ">
+      <label for="group2" class="lablestyle">Radios</label>
+      <input type="radio" value="value1" name="group1">
+      <input type="radio" value="value2" name="group1">
+    </fieldset>
+    
+   
+    <fieldset id="group1" >
+      <label for="group2" class="lablestyle">Checkboxs</label>
+      <input type="checkbox" value="value1" name="group2">
+      <input type="checkbox" value="value2" name="group2">
+    </fieldset>
+    
+     
+      <div>
+        <label for="comment">Comment</label>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="type your comment"></textarea>
+      </div>
+      <input type="submit" name="" id="" value="Submit">
+     
     </form>
 
 
